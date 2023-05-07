@@ -24,8 +24,18 @@ The original file with the data was imported from [here](https://osf.io/gdr4q).
 
 -   Raw - raw data extracted from a paper
 
--   Error, DecisionError, OneTail, OneTailedInTxt and CopyPaste - tests not used in this projects, if you are interested 
+-   Error, DecisionError, OneTail, OneTailedInTxt and CopyPaste - tests not used in this projects
 
--   APAfactor, journal (original name journals_jour_) and year (original name years_y_) - the relevant publication's characteristics
+-   APAfactor, journals_jour\_ and years_y\_ - the relevant publication's characteristics
 
-In addition Reported_P\_Value and Computed were transformed into numeric class which resulted in two additional variables: p_rep_num and p_calc_num.
+In the analysis only five variables are used with new names (original names are given in brackets):
+
+-    n (=N)
+
+-   comparison (=Reported_Comparison)
+
+-   p_report (=Value)
+
+-   p_compute (=Computed)
+
+-   year (=years_y\_)
