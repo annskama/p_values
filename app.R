@@ -23,7 +23,7 @@ ui <- navbarPage("P-value in Psychology",   # title
                  tabPanel("Summary",
                           fluidPage(column(10,
                                            offset = 2,
-                                           markdown(readLines("https://raw.githubusercontent.com/annskama/p_values/main/Summary.Rmd")))
+                                           markdown(readLines("https://raw.githubusercontent.com/annskama/p_values/main/rmd_support/Summary.Rmd")))
                           )
                  ),
 
