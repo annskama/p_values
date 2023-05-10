@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# P_values Project
-=======
-# p_values
->>>>>>> 7026cae42297b203687973ea858632ff97da6a75
+# P-value in Psychology
 
 #### Distribution of p-values reported in eight major psychology journals in 1985-2013
 
