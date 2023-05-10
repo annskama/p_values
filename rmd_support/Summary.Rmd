@@ -42,6 +42,12 @@ This visualization project consists of two parts:
 
 The overall take-home message is the spikes in the distribution of p-values reported at least to some extent may be a result of questionable reporting practices as when p-values are recalculated based on reported statistics the distribution looks much more smoothed and lacks significant spikes around conventional thresholds.
 
+#### Limitations
+
+This project does not explore all the information available in the original dataset. It can be extended in attempt to discover any differences in journals or associations of reporting practice with APA factor.
+
+Also, it would be interesting to produce the same visualization for more recent data to check if the open science movement has led to any improvement.
+
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 \**The project is published on [GitHub](https://github.com/annskama/p_values)*
