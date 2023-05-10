@@ -18,9 +18,11 @@ The original file with the data was imported from [here](https://osf.io/gdr4q).
 
 -   Computed [**p_compute**] - p-value recalculated based on the reported statistics value and degrees of freedom (recalculation is performed by [Nuijten et al. (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5101263/) using the automated procedure [statcheck](https://CRAN.R-project.org/package=statcheck)
 
--    Years_y\_ [**year**] - a year of a publication
+-   Years_y\_ [**year**] - a year of a publication
 
-    *Other variables not used in the project:*
+```         
+*Other variables not used in the project:*
+```
 
 -   Source - order number of a paper, from which data was extracted
 
