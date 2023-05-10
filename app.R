@@ -77,7 +77,7 @@ ui <- navbarPage("P-value in Psychology",   # title
                                      br(),
                                      # text with key take-home messages
                                      h4("Key patterns:"),
-                                     h6("- No clear change tendency for all reported p-values year-over-year"),
+                                     h6("- No evident change tendency for all reported p-values year-over-year"),
                                      h6("- Much smoother distribution for only exactly reported p-values"),
                                      h6("- No spikes for calculated p-value distribution in later years")
 
@@ -115,8 +115,9 @@ ui <- navbarPage("P-value in Psychology",   # title
 
                                      # key take-home messages
                                      h4("Key patterns:"),
-                                     h6("- Inaccuracy ratio in 5-14% range"),
-                                     h6("- The inaccuracy in reporting is higher for 0.05 threshold")
+                                     h6("- Inaccuracy ratio in 5-22% range"),
+                                     h6("- The inaccuracy in reporting is higher for 0.05 threshold"),
+                                     h6("- No evident trend over time (at least based on current visualization)")
                               ))
 
                           )

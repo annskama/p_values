@@ -34,7 +34,7 @@ This visualization project consists of two parts:
 
 -   on Accuracy in Reporting tab a comparison of reported and calculated p-values is provided for the whole period in question. The graph shows that:
 
-    -   an inaccuracy ratio of reporting p-values is in the range of 5-14% depending on the threshold level and type of reporting (exact value or below a threshold);
+    -   an inaccuracy ratio of reporting p-values is in the range of 5-22% depending on the threshold level and type of reporting (exact value or below a threshold);
 
     -   the inaccuracy in reporting is the highest for 0.05 level which is conventional for psychological research.
 
@@ -44,7 +44,7 @@ The overall take-home message is the spikes in the distribution of p-values repo
 
 #### Limitations
 
-This project does not explore all the information available in the original dataset. It can be extended in attempt to discover any differences in journals or associations of reporting practice with APA factor.
+This project does not explore all the information available in the original dataset. For example, it can be extended in attempt to discover any differences in journals or associations of reporting practice with APA factor.
 
 Also, it would be interesting to produce the same visualization for more recent data to check if the open science movement has led to any improvement.
 
