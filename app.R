@@ -68,7 +68,7 @@ ui <- navbarPage("P-value in Psychology",   # title
                 column(3,
                        offset = 1,
                        br(),
-                       # input for selection which p-values to report (all or only exact values)
+                       # input for selection which p-values to report: all or only exact values
                        selectInput("p_filter",
                                    label = "Show p-values reported",
                                    choices = c("all", "only as exact values"),
