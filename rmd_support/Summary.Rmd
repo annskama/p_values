@@ -20,7 +20,7 @@ The original file with the data was imported from [here](https://osf.io/gdr4q).
 
 The procedure of data extraction is described here [The prevalence of statistical reporting errors in psychology (1985--2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5101263/), including the usage of the automated statcheck procedure: [Extract Statistics from Articles and Recompute P-Values](https://CRAN.R-project.org/package=statcheck). Inter alia, Statcheck computes p-values based on the reported statistics value and degrees of freedom.
 
-#### Graphs
+#### Key Patterns
 
 This visualization project consists of two parts:
 
@@ -38,7 +38,7 @@ This visualization project consists of two parts:
 
     -   the inaccuracy in reporting is the highest for 0.05 level which is conventional for psychological research.
 
-#### Result
+#### Conclusion
 
 The overall take-home message is the spikes in the distribution of p-values reported at least to some extent may be a result of questionable reporting practices as when p-values are recalculated based on reported statistics the distribution looks much more smoothed and lacks significant spikes around conventional thresholds.
 
