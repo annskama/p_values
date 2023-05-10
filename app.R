@@ -126,7 +126,7 @@ ui <- navbarPage("P-value in Psychology",   # title
 # server part
 server <- function(input, output) {
 
-  # get the data from github
+  # get the dataset from github
   link <- "https://raw.githubusercontent.com/annskama/p_values/main/data/150211FullFile_AllStatcheckData_Automatic1Tail.csv"
   my_data <- read.csv(link, sep = ";")
 
