@@ -1,7 +1,45 @@
-# p_value_distribution
+# Summary
 
-Distribution of p-values reported in eight major psychology journals in 1985-2013.
+The project aims to visualize the distribution of p-values reported in eight major psychology journals in 1985-2013 and compare them with the relevant calculated p-values.
 
-The study exploring the data can be found here [Distributions of p-values smaller than .05 in psychology: what is going on?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4830257/)
+### Why?
 
-The original file with the data was imported from [here](https://osf.io/gdr4q). The procedure of data extraction is described here [The prevalence of statistical reporting errors in psychology (1985--2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5101263/), including the usage of the automated procedure statcheck [statcheck: Extract Statistics from Articles and Recompute P-Values](https://CRAN.R-project.org/package=statcheck).
+P-value distribution and, more precisely, spikes observed at the conventionally accepted thresholds - 0.05 in psychological research - are considered as an evidence of **publication bias**.
+
+Publication bias refers to the phenomenon where studies that show statistically significant results are more likely to be published in academic journals. This can lead to a distorted picture of the true effects of a particular intervention or phenomenon, as the published literature may overestimate the size of the effect or the magnitude of the association between variables.
+
+### What?
+
+The study is motivated by this paper: [Distributions of p-values smaller than .05 in psychology: what is going on?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4830257/) Having left untouched some fascinating parts of the analysis, this project focuses on two key points only:
+
+-   to demonstrate the distribution of reported p-values for the period in question;
+
+-   to compare p-values reported and calculated in order to show some possible reasons for the spikes in p-value reported.
+
+The original file with the data was imported from [here](https://osf.io/gdr4q).
+
+The procedure of data extraction is described here [The prevalence of statistical reporting errors in psychology (1985--2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5101263/), including the usage of the automated statcheck procedure: [Extract Statistics from Articles and Recompute P-Values](https://CRAN.R-project.org/package=statcheck). Inter alia, Statcheck computes p-values based on the reported statistics value and degrees of freedom.
+
+### How?
+
+This visualization project consists of two parts:
+
+-   on P-value Distribution tab the density of p-value distribution is provided for different years. One can evidence the spikes of reported p-values at the most sensitive thresholds - 0.05 and 0.01. Interesting facts are:
+
+    -   there is no evident improving tendency in those spikes year-over-year, except for the last couple of years;
+
+    -   the spikes almost disappear if we look at only exactly reported p-values (that is reported, for example, as "p=0.041" instead of just "p\<0.05");
+
+    -   calculated p-value distribution in later years of the period in question lacks any spikes at all.
+
+-   on Accuracy in Reporting tab a comparison of reported and calculated p-values is provided for the whole period in question. The graph shows that:
+
+    -   an inaccuracy ratio of reporting p-values is in the range of 5-14% depending on the threshold level and type of reporting (exact value or below a threshold);
+
+    -   the inaccuracy in reporting is the highest for 0.05 level which is conventional for psychological research.
+
+### Result
+
+The overall take-home message is the spikes in the distribution of p-values reported at least to some extent may be a result of questionable reporting practices.
+
+\**The code for this project can be found [here](https://github.com/annskama/p_values)*
