@@ -5,10 +5,10 @@ account: annskama
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9047798
-bundleId: 7184976
+bundleId: 7199595
 url: https://annskama.shinyapps.io/p_values/
-when: 1683464009.06119
-lastSyncTime: 1683464009.06121
+when: 1683728678.70026
+lastSyncTime: 1683728678.7003
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: data/150211FullFile_AllStatcheckData_Automatic1Tail.csv
+ignoredFiles: data/150211FullFile_AllStatcheckData_Automatic1Tail.csv|Introduction.Rmd|README.md

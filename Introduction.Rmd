@@ -1,7 +1,0 @@
-# p_value_distribution
-
-Distribution of p-values reported in eight major psychology journals in 1985-2013.
-
-The study exploring the data can be found here [Distributions of p-values smaller than .05 in psychology: what is going on?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4830257/)
-
-The original file with the data was imported from [here](https://osf.io/gdr4q). The procedure of data extraction is described here [The prevalence of statistical reporting errors in psychology (1985--2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5101263/), including the usage of the automated procedure statcheck [statcheck: Extract Statistics from Articles and Recompute P-Values](https://CRAN.R-project.org/package=statcheck).
