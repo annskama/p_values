@@ -11,7 +11,7 @@ library(readr)
 library(shinyWidgets)
 library(markdown)
 
-# Define UI for application (several tabs)
+# define UI for application (several tabs)
 ui <- navbarPage("P-value in Psychology",   # title
 
             # set the theme and adjust some colors
