@@ -20,9 +20,7 @@ The original file with the data was imported from [here](https://osf.io/gdr4q).
 
 -   Years_y\_ [**year**] - a year of a publication
 
-```         
 *Other variables not used in the project:*
-```
 
 -   Source - order number of a paper, from which data was extracted
 
