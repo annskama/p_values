@@ -48,7 +48,7 @@ This project does not explore all the information available in the original data
 
 Also, it would be interesting to produce the same visualization for more recent data to check if the open science movement has led to any improvement.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+------------------------------------------------------------------------
 
 *Created by Anna Kamardina*
 

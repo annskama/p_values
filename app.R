@@ -23,7 +23,14 @@ ui <- navbarPage("P-value in Psychology",   # title
                  tabPanel("Summary",
                           fluidPage(column(10,
                                            offset = 2,
-                                           markdown(readLines("https://raw.githubusercontent.com/annskama/p_values/main/rmd_support/Summary.Rmd")))
+                                           br(),
+                                           markdown(readLines("https://raw.githubusercontent.com/annskama/p_values/main/rmd_support/Summary.Rmd")),
+                                           # add a link to the project github repo
+                                           tags$a(href="https://github.com/annskama/p_values",
+                                                  target="_blank",
+                                                  tags$i(class="fab fa-github fa-2x")),
+                                           br(),
+                                           br())
                           )
                  ),
 
@@ -53,7 +60,7 @@ ui <- navbarPage("P-value in Psychology",   # title
                                                  width = "90%"),
                                      # input for the year slider
                                      sliderInput("years",
-                                                 "Please select the year",
+                                                 "Please select the year or click the play button",
                                                  min = 1985,
                                                  max = 2013,
                                                  value = 2013,
@@ -171,7 +178,7 @@ server <- function(input, output) {
       # titles for the axes
       xlab("P-values")+ylab("Density")+
       # title for the graph
-      ggtitle(paste("Comparison of reported and calculated p-values, year", input$years))+
+      ggtitle(paste("Comparison of Reported and Calculated P-values, year", input$years))+
       # some designing
       theme(plot.title = element_text(hjust = 0.5, size = 15, face="bold"),
             axis.title = element_text(size=13)) +
