@@ -1,9 +1,5 @@
 # Summary
 
-*Author: Anna Kamardina*
-
-*Date: May 11, 2023*
-
 The project aims to visualize the distribution of p-values reported in eight major psychology journals in 1985-2013 and compare them with the relevant calculated p-values.
 
 #### Why it is interesting
@@ -51,3 +47,9 @@ The overall take-home message is the spikes in the distribution of p-values repo
 This project does not explore all the information available in the original dataset. For example, it can be extended in attempt to discover any differences in journals or associations of reporting practice with APA factor.
 
 Also, it would be interesting to produce the same visualization for more recent data to check if the open science movement has led to any improvement.
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+*Created by Anna Kamardina*
+
+*May 2023*
