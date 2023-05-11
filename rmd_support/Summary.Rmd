@@ -1,12 +1,16 @@
 # Summary
 
+*Author: Anna Kamardina*
+
+*Date: May 11, 2023*
+
 The project aims to visualize the distribution of p-values reported in eight major psychology journals in 1985-2013 and compare them with the relevant calculated p-values.
 
 #### Why it is interesting
 
 P-value distribution and, more precisely, spikes observed at the conventionally accepted thresholds - 0.05 in psychological research - are considered as an evidence of **publication bias**.
 
-Publication bias refers to the phenomenon where studies that show statistically significant results are more likely to be published in academic journals. This can lead to a distorted picture of the true effects of a particular intervention or phenomenon, as the published literature may overestimate the size of the effect or the magnitude of the association between variables.
+Publication bias refers to the phenomenon where studies that show statistically significant results are more likely to be published in academic journals. This can lead to a biased picture of the true effects of a particular intervention or phenomenon, as the published literature tends to overestimate the size of the effect or the magnitude of the association between variables.
 
 #### Data Sources
 
@@ -47,7 +51,3 @@ The overall take-home message is the spikes in the distribution of p-values repo
 This project does not explore all the information available in the original dataset. For example, it can be extended in attempt to discover any differences in journals or associations of reporting practice with APA factor.
 
 Also, it would be interesting to produce the same visualization for more recent data to check if the open science movement has led to any improvement.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\**The project is published on [GitHub](https://github.com/annskama/p_values)*
